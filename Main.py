@@ -29,4 +29,4 @@ client.loop_start()
 while True:
   random_number = random.randint(1, 100)
   client.publish("train2", str(random_number))
-  time.sleep(3)
+  time.sleep(0.5)
